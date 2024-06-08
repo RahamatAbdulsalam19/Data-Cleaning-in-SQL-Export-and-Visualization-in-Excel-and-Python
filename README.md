@@ -8,7 +8,7 @@ This project involves using SQL to perform various data analysis tasks on a data
 2. **Find how many products were sold in 2005**
 3. **Find the total amount sold in 2005**
 4. **Find the highest-paying customer**
-5. **Export all the products bought by the customer to a CSV (product name, amount)**
+5. **Export all the products bought by the customer to a CSV (product, name, amount)**
 6. **Group total payment in 2004 for each month**
 7. **Plot a graph showing total sales by each month in 2004**
 8. **Determine how many motorcycles were sold in 2004**
@@ -20,7 +20,7 @@ This project involves using SQL to perform various data analysis tasks on a data
 ## Instructions
 
 ### 1. Find the top-selling product
-- Query the OrderDetails table to find the product with the highest sales quantity.
+- Use the OrderDetails and Products tables to find the top selling product.
 
 ### 2. Find how many products were sold in 2005
 - Use the Orders and OrderDetails tables to count the number of products sold in the year 2005.
@@ -29,7 +29,7 @@ This project involves using SQL to perform various data analysis tasks on a data
 - Calculate the total sales amount from Orders and OrderDetails tables for the year 2005.
 
 ### 4. Find the highest-paying customer
-- Query the Payments table to identify the customer with the highest total payments.
+- Use the Orders and OrderDetails tables to identify the customer with the highest total payments.
 
 ### 5. Export all the products bought by the customer to a CSV (product name, amount)
 - Use SQL to find all products bought by a specific customer, and then export the results to a CSV file.
@@ -44,7 +44,7 @@ This project involves using SQL to perform various data analysis tasks on a data
 - Query the OrderDetails and Products tables to find the count of motorcycles sold in 2004.
 
 ### 9. Plot a graph showing the sales (amount) record of product lines
-- Aggregate sales data by product lines and plot a graph showing the sales amount for each product line.
+- Aggregate  Payments Data by product lines and plot a graph showing the sales amount for each product line.
 
 ### 10. Data cleaning: Add “Not Available” for customers without a state
 - Update the Customers table to set the state as “Not Available” where the state is currently null or missing.
